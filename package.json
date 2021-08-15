@@ -1,0 +1,25 @@
+{
+  "name": "rpglogs-api-sample-app",
+  "version": "1.0.0",
+  "author": "RPGLogs LLC",
+  "repository": "https://github.com/RPGLogs/RPGLogsApiSampleApp",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@rpglogs/api-sdk": "^1.0.0",
+    "btoa": "^1.2.1",
+    "next": "11.0.0",
+    "prismjs": "^1.23.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "eslint": "7.29.0",
+    "eslint-config-next": "11.0.0"
+  }
+}
